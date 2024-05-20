@@ -10,10 +10,10 @@
     <xacro:macro name = "default_inertial" params = "mass">
         <inertial>
             <mass value ="${mass}"/>
-            <inertial ixx= "1.0" ixy = "0.0" ixz = "0.0"
-            iyy = "1.0" iyz = "0.0"
-            izz = "1.0"/>
-        </inertial>
+            <inertia ixx="1.0" ixy = "0.0" ixz = "0.0"
+                      iyy="1.0" iyz = "0.0"
+                      izz="1.0"/>
+            </inertial>
 
     </xacro:macro>
 
@@ -198,12 +198,19 @@
     </joint>
 
     <link name="rgb_camera">
+        <xacro:default_inertial mass = "0.001"/>
         <visual>
             <origin rpy="-1.57 0 -1.57" xyz="-0.1 0.125 0.15"/>
             <geometry>
                 <mesh filename="package://aurdinorobot_description/meshes/pi_camera.STL" scale="0.01 0.01 0.01"/>
             </geometry>
         </visual>
+        <collision>
+            <origin rpy="-1.57 0 -1.57" xyz="-0.1 0.125 0.15"/>
+            <geometry>
+                <mesh filename="package://aurdinorobot_description/meshes/pi_camera.STL" scale="0.01 0.01 0.01"/>
+            </geometry>
+        </collision>
     </link>
     <joint name ="rgb_camera_joint" type="fixed">
         <parent link="base_link"/>
