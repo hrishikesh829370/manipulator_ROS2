@@ -1,0 +1,21 @@
+[0.993s] Invoking command in '/home/rishi/aurdinorobot_ws/src/aurdinobot_py_examples': PYTHONPATH=/home/rishi/aurdinorobot_ws/build/aurdinobot_py_examples/prefix_override:/home/rishi/aurdinorobot_ws/install/aurdinobot_py_examples/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/aurdinobot_py_examples build --build-base /home/rishi/aurdinorobot_ws/build/aurdinobot_py_examples/build install --record /home/rishi/aurdinorobot_ws/build/aurdinobot_py_examples/install.log --single-version-externally-managed install_data
+[1.301s] running egg_info
+[1.319s] writing ../../build/aurdinobot_py_examples/aurdinobot_py_examples.egg-info/PKG-INFO
+[1.320s] writing dependency_links to ../../build/aurdinobot_py_examples/aurdinobot_py_examples.egg-info/dependency_links.txt
+[1.320s] writing requirements to ../../build/aurdinobot_py_examples/aurdinobot_py_examples.egg-info/requires.txt
+[1.320s] writing top-level names to ../../build/aurdinobot_py_examples/aurdinobot_py_examples.egg-info/top_level.txt
+[1.362s] reading manifest file '../../build/aurdinobot_py_examples/aurdinobot_py_examples.egg-info/SOURCES.txt'
+[1.364s] writing manifest file '../../build/aurdinobot_py_examples/aurdinobot_py_examples.egg-info/SOURCES.txt'
+[1.364s] running build
+[1.364s] running build_py
+[1.364s] copying aurdinobot_py_examples/simple_publisher.py -> /home/rishi/aurdinorobot_ws/build/aurdinobot_py_examples/build/lib/aurdinobot_py_examples
+[1.365s] copying aurdinobot_py_examples/__init__.py -> /home/rishi/aurdinorobot_ws/build/aurdinobot_py_examples/build/lib/aurdinobot_py_examples
+[1.365s] running install
+[1.374s] running install_lib
+[1.397s] running install_data
+[1.397s] running install_egg_info
+[1.418s] removing '/home/rishi/aurdinorobot_ws/install/aurdinobot_py_examples/lib/python3.10/site-packages/aurdinobot_py_examples-0.0.0-py3.10.egg-info' (and everything under it)
+[1.418s] Copying ../../build/aurdinobot_py_examples/aurdinobot_py_examples.egg-info to /home/rishi/aurdinorobot_ws/install/aurdinobot_py_examples/lib/python3.10/site-packages/aurdinobot_py_examples-0.0.0-py3.10.egg-info
+[1.420s] running install_scripts
+[1.581s] writing list of installed files to '/home/rishi/aurdinorobot_ws/build/aurdinobot_py_examples/install.log'
+[1.625s] Invoked command in '/home/rishi/aurdinorobot_ws/src/aurdinobot_py_examples' returned '0': PYTHONPATH=/home/rishi/aurdinorobot_ws/build/aurdinobot_py_examples/prefix_override:/home/rishi/aurdinorobot_ws/install/aurdinobot_py_examples/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/aurdinobot_py_examples build --build-base /home/rishi/aurdinorobot_ws/build/aurdinobot_py_examples/build install --record /home/rishi/aurdinorobot_ws/build/aurdinobot_py_examples/install.log --single-version-externally-managed install_data

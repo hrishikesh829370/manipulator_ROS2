@@ -1,0 +1,9 @@
+/home/rishi/aurdinorobot_ws/build/aurdinorobot_description/CMakeFiles/uninstall.dir
+/home/rishi/aurdinorobot_ws/build/aurdinorobot_description/CMakeFiles/aurdinorobot_description_uninstall.dir
+/home/rishi/aurdinorobot_ws/build/aurdinorobot_description/CMakeFiles/test.dir
+/home/rishi/aurdinorobot_ws/build/aurdinorobot_description/CMakeFiles/edit_cache.dir
+/home/rishi/aurdinorobot_ws/build/aurdinorobot_description/CMakeFiles/rebuild_cache.dir
+/home/rishi/aurdinorobot_ws/build/aurdinorobot_description/CMakeFiles/list_install_components.dir
+/home/rishi/aurdinorobot_ws/build/aurdinorobot_description/CMakeFiles/install.dir
+/home/rishi/aurdinorobot_ws/build/aurdinorobot_description/CMakeFiles/install/local.dir
+/home/rishi/aurdinorobot_ws/build/aurdinorobot_description/CMakeFiles/install/strip.dir

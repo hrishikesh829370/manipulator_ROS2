@@ -1,0 +1,42 @@
+[0.346s] Invoking command in '/home/rishi/aurdinorobot_ws/build/aurdinorobot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rishi/aurdinorobot_ws/install/aurdinobot_py_examples:/home/rishi/Desktop/ROS2-Self-Driving-Car-AI-using-OpenCV-34dbd42379571ce15dfddcd7bb851ab772a2b23d/install/self_driving_car_pkg:/opt/ros/humble /usr/bin/cmake /home/rishi/aurdinorobot_ws/src/aurdinorobot_description -DCMAKE_INSTALL_PREFIX=/home/rishi/aurdinorobot_ws/install/aurdinorobot_description
+[0.455s] -- The C compiler identification is GNU 11.4.0
+[0.553s] -- The CXX compiler identification is GNU 7.5.0
+[0.569s] -- Detecting C compiler ABI info
+[0.679s] -- Detecting C compiler ABI info - done
+[0.691s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.691s] -- Detecting C compile features
+[0.691s] -- Detecting C compile features - done
+[0.696s] -- Detecting CXX compiler ABI info
+[0.827s] -- Detecting CXX compiler ABI info - done
+[0.842s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.842s] -- Detecting CXX compile features
+[0.843s] -- Detecting CXX compile features - done
+[0.849s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.488s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.651s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.783s] -- Added test 'lint_cmake' to check CMake code style
+[1.786s] -- Added test 'xmllint' to check XML markup files
+[1.788s] -- Configuring done
+[1.793s] -- Generating done
+[1.795s] -- Build files have been written to: /home/rishi/aurdinorobot_ws/build/aurdinorobot_description
+[1.802s] Invoked command in '/home/rishi/aurdinorobot_ws/build/aurdinorobot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rishi/aurdinorobot_ws/install/aurdinobot_py_examples:/home/rishi/Desktop/ROS2-Self-Driving-Car-AI-using-OpenCV-34dbd42379571ce15dfddcd7bb851ab772a2b23d/install/self_driving_car_pkg:/opt/ros/humble /usr/bin/cmake /home/rishi/aurdinorobot_ws/src/aurdinorobot_description -DCMAKE_INSTALL_PREFIX=/home/rishi/aurdinorobot_ws/install/aurdinorobot_description
+[1.803s] Invoking command in '/home/rishi/aurdinorobot_ws/build/aurdinorobot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rishi/aurdinorobot_ws/install/aurdinobot_py_examples:/home/rishi/Desktop/ROS2-Self-Driving-Car-AI-using-OpenCV-34dbd42379571ce15dfddcd7bb851ab772a2b23d/install/self_driving_car_pkg:/opt/ros/humble /usr/bin/cmake --build /home/rishi/aurdinorobot_ws/build/aurdinorobot_description -- -j8 -l8
+[1.872s] Invoked command in '/home/rishi/aurdinorobot_ws/build/aurdinorobot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rishi/aurdinorobot_ws/install/aurdinobot_py_examples:/home/rishi/Desktop/ROS2-Self-Driving-Car-AI-using-OpenCV-34dbd42379571ce15dfddcd7bb851ab772a2b23d/install/self_driving_car_pkg:/opt/ros/humble /usr/bin/cmake --build /home/rishi/aurdinorobot_ws/build/aurdinorobot_description -- -j8 -l8
+[1.908s] Invoking command in '/home/rishi/aurdinorobot_ws/build/aurdinorobot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rishi/aurdinorobot_ws/install/aurdinobot_py_examples:/home/rishi/Desktop/ROS2-Self-Driving-Car-AI-using-OpenCV-34dbd42379571ce15dfddcd7bb851ab772a2b23d/install/self_driving_car_pkg:/opt/ros/humble /usr/bin/cmake --install /home/rishi/aurdinorobot_ws/build/aurdinorobot_description
+[1.921s] -- Install configuration: ""
+[1.922s] -- Installing: /home/rishi/aurdinorobot_ws/install/aurdinorobot_description/share/ament_index/resource_index/package_run_dependencies/aurdinorobot_description
+[1.923s] -- Installing: /home/rishi/aurdinorobot_ws/install/aurdinorobot_description/share/ament_index/resource_index/parent_prefix_path/aurdinorobot_description
+[1.923s] -- Installing: /home/rishi/aurdinorobot_ws/install/aurdinorobot_description/share/aurdinorobot_description/environment/ament_prefix_path.sh
+[1.924s] -- Installing: /home/rishi/aurdinorobot_ws/install/aurdinorobot_description/share/aurdinorobot_description/environment/ament_prefix_path.dsv
+[1.924s] -- Installing: /home/rishi/aurdinorobot_ws/install/aurdinorobot_description/share/aurdinorobot_description/environment/path.sh
+[1.924s] -- Installing: /home/rishi/aurdinorobot_ws/install/aurdinorobot_description/share/aurdinorobot_description/environment/path.dsv
+[1.924s] -- Installing: /home/rishi/aurdinorobot_ws/install/aurdinorobot_description/share/aurdinorobot_description/local_setup.bash
+[1.925s] -- Installing: /home/rishi/aurdinorobot_ws/install/aurdinorobot_description/share/aurdinorobot_description/local_setup.sh
+[1.925s] -- Installing: /home/rishi/aurdinorobot_ws/install/aurdinorobot_description/share/aurdinorobot_description/local_setup.zsh
+[1.925s] -- Installing: /home/rishi/aurdinorobot_ws/install/aurdinorobot_description/share/aurdinorobot_description/local_setup.dsv
+[1.925s] -- Installing: /home/rishi/aurdinorobot_ws/install/aurdinorobot_description/share/aurdinorobot_description/package.dsv
+[1.925s] -- Installing: /home/rishi/aurdinorobot_ws/install/aurdinorobot_description/share/ament_index/resource_index/packages/aurdinorobot_description
+[1.926s] -- Installing: /home/rishi/aurdinorobot_ws/install/aurdinorobot_description/share/aurdinorobot_description/cmake/aurdinorobot_descriptionConfig.cmake
+[1.926s] -- Installing: /home/rishi/aurdinorobot_ws/install/aurdinorobot_description/share/aurdinorobot_description/cmake/aurdinorobot_descriptionConfig-version.cmake
+[1.926s] -- Installing: /home/rishi/aurdinorobot_ws/install/aurdinorobot_description/share/aurdinorobot_description/package.xml
+[1.930s] Invoked command in '/home/rishi/aurdinorobot_ws/build/aurdinorobot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rishi/aurdinorobot_ws/install/aurdinobot_py_examples:/home/rishi/Desktop/ROS2-Self-Driving-Car-AI-using-OpenCV-34dbd42379571ce15dfddcd7bb851ab772a2b23d/install/self_driving_car_pkg:/opt/ros/humble /usr/bin/cmake --install /home/rishi/aurdinorobot_ws/build/aurdinorobot_description

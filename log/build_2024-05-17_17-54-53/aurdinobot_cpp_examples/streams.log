@@ -1,0 +1,20 @@
+[0.027s] Invoking command in '/home/rishi/aurdinorobot_ws/build/aurdinobot_cpp_examples': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rishi/aurdinorobot_ws/install/aurdinobot_py_examples:/home/rishi/Desktop/ROS2-Self-Driving-Car-AI-using-OpenCV-34dbd42379571ce15dfddcd7bb851ab772a2b23d/install/self_driving_car_pkg:/opt/ros/humble /usr/bin/cmake --build /home/rishi/aurdinorobot_ws/build/aurdinobot_cpp_examples -- -j8 -l8
+[0.335s] Invoked command in '/home/rishi/aurdinorobot_ws/build/aurdinobot_cpp_examples' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rishi/aurdinorobot_ws/install/aurdinobot_py_examples:/home/rishi/Desktop/ROS2-Self-Driving-Car-AI-using-OpenCV-34dbd42379571ce15dfddcd7bb851ab772a2b23d/install/self_driving_car_pkg:/opt/ros/humble /usr/bin/cmake --build /home/rishi/aurdinorobot_ws/build/aurdinobot_cpp_examples -- -j8 -l8
+[0.377s] Invoking command in '/home/rishi/aurdinorobot_ws/build/aurdinobot_cpp_examples': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rishi/aurdinorobot_ws/install/aurdinobot_py_examples:/home/rishi/Desktop/ROS2-Self-Driving-Car-AI-using-OpenCV-34dbd42379571ce15dfddcd7bb851ab772a2b23d/install/self_driving_car_pkg:/opt/ros/humble /usr/bin/cmake --install /home/rishi/aurdinorobot_ws/build/aurdinobot_cpp_examples
+[0.389s] -- Install configuration: ""
+[0.390s] -- Up-to-date: /home/rishi/aurdinorobot_ws/install/aurdinobot_cpp_examples/share/ament_index/resource_index/package_run_dependencies/aurdinobot_cpp_examples
+[0.390s] -- Up-to-date: /home/rishi/aurdinorobot_ws/install/aurdinobot_cpp_examples/share/ament_index/resource_index/parent_prefix_path/aurdinobot_cpp_examples
+[0.391s] -- Up-to-date: /home/rishi/aurdinorobot_ws/install/aurdinobot_cpp_examples/share/aurdinobot_cpp_examples/environment/ament_prefix_path.sh
+[0.391s] -- Up-to-date: /home/rishi/aurdinorobot_ws/install/aurdinobot_cpp_examples/share/aurdinobot_cpp_examples/environment/ament_prefix_path.dsv
+[0.391s] -- Up-to-date: /home/rishi/aurdinorobot_ws/install/aurdinobot_cpp_examples/share/aurdinobot_cpp_examples/environment/path.sh
+[0.391s] -- Up-to-date: /home/rishi/aurdinorobot_ws/install/aurdinobot_cpp_examples/share/aurdinobot_cpp_examples/environment/path.dsv
+[0.392s] -- Up-to-date: /home/rishi/aurdinorobot_ws/install/aurdinobot_cpp_examples/share/aurdinobot_cpp_examples/local_setup.bash
+[0.392s] -- Up-to-date: /home/rishi/aurdinorobot_ws/install/aurdinobot_cpp_examples/share/aurdinobot_cpp_examples/local_setup.sh
+[0.392s] -- Up-to-date: /home/rishi/aurdinorobot_ws/install/aurdinobot_cpp_examples/share/aurdinobot_cpp_examples/local_setup.zsh
+[0.392s] -- Up-to-date: /home/rishi/aurdinorobot_ws/install/aurdinobot_cpp_examples/share/aurdinobot_cpp_examples/local_setup.dsv
+[0.393s] -- Installing: /home/rishi/aurdinorobot_ws/install/aurdinobot_cpp_examples/share/aurdinobot_cpp_examples/package.dsv
+[0.394s] -- Up-to-date: /home/rishi/aurdinorobot_ws/install/aurdinobot_cpp_examples/share/ament_index/resource_index/packages/aurdinobot_cpp_examples
+[0.394s] -- Up-to-date: /home/rishi/aurdinorobot_ws/install/aurdinobot_cpp_examples/share/aurdinobot_cpp_examples/cmake/aurdinobot_cpp_examplesConfig.cmake
+[0.395s] -- Up-to-date: /home/rishi/aurdinorobot_ws/install/aurdinobot_cpp_examples/share/aurdinobot_cpp_examples/cmake/aurdinobot_cpp_examplesConfig-version.cmake
+[0.395s] -- Up-to-date: /home/rishi/aurdinorobot_ws/install/aurdinobot_cpp_examples/share/aurdinobot_cpp_examples/package.xml
+[0.396s] Invoked command in '/home/rishi/aurdinorobot_ws/build/aurdinobot_cpp_examples' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rishi/aurdinorobot_ws/install/aurdinobot_py_examples:/home/rishi/Desktop/ROS2-Self-Driving-Car-AI-using-OpenCV-34dbd42379571ce15dfddcd7bb851ab772a2b23d/install/self_driving_car_pkg:/opt/ros/humble /usr/bin/cmake --install /home/rishi/aurdinorobot_ws/build/aurdinobot_cpp_examples

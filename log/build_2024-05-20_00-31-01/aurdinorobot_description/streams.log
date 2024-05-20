@@ -1,0 +1,40 @@
+[0.317s] Invoking command in '/home/rishi/aurdinorobot_ws/build/aurdinorobot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rishi/aurdinorobot_ws/install/aurdinobot_py_examples:/home/rishi/Desktop/ROS2-Self-Driving-Car-AI-using-OpenCV-34dbd42379571ce15dfddcd7bb851ab772a2b23d/install/self_driving_car_pkg:/opt/ros/humble /usr/bin/cmake --build /home/rishi/aurdinorobot_ws/build/aurdinorobot_description -- -j8 -l8
+[0.373s] Invoked command in '/home/rishi/aurdinorobot_ws/build/aurdinorobot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rishi/aurdinorobot_ws/install/aurdinobot_py_examples:/home/rishi/Desktop/ROS2-Self-Driving-Car-AI-using-OpenCV-34dbd42379571ce15dfddcd7bb851ab772a2b23d/install/self_driving_car_pkg:/opt/ros/humble /usr/bin/cmake --build /home/rishi/aurdinorobot_ws/build/aurdinorobot_description -- -j8 -l8
+[0.413s] Invoking command in '/home/rishi/aurdinorobot_ws/build/aurdinorobot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rishi/aurdinorobot_ws/install/aurdinobot_py_examples:/home/rishi/Desktop/ROS2-Self-Driving-Car-AI-using-OpenCV-34dbd42379571ce15dfddcd7bb851ab772a2b23d/install/self_driving_car_pkg:/opt/ros/humble /usr/bin/cmake --install /home/rishi/aurdinorobot_ws/build/aurdinorobot_description
+[0.425s] -- Install configuration: ""
+[0.425s] -- Up-to-date: /home/rishi/aurdinorobot_ws/install/aurdinorobot_description/share/aurdinorobot_description/meshes
+[0.426s] -- Up-to-date: /home/rishi/aurdinorobot_ws/install/aurdinorobot_description/share/aurdinorobot_description/meshes/left_finger.STL
+[0.426s] -- Up-to-date: /home/rishi/aurdinorobot_ws/install/aurdinorobot_description/share/aurdinorobot_description/meshes/servo_plate.STL
+[0.426s] -- Up-to-date: /home/rishi/aurdinorobot_ws/install/aurdinorobot_description/share/aurdinorobot_description/meshes/round_plate.STL
+[0.426s] -- Up-to-date: /home/rishi/aurdinorobot_ws/install/aurdinorobot_description/share/aurdinorobot_description/meshes/horizontal_arm.STL
+[0.427s] -- Up-to-date: /home/rishi/aurdinorobot_ws/install/aurdinorobot_description/share/aurdinorobot_description/meshes/forward_drive_arm.STL
+[0.427s] -- Up-to-date: /home/rishi/aurdinorobot_ws/install/aurdinorobot_description/share/aurdinorobot_description/meshes/base_plate.STL
+[0.427s] -- Up-to-date: /home/rishi/aurdinorobot_ws/install/aurdinorobot_description/share/aurdinorobot_description/meshes/plate.STL
+[0.427s] -- Up-to-date: /home/rishi/aurdinorobot_ws/install/aurdinorobot_description/share/aurdinorobot_description/meshes/vertical_drive_arm.STL
+[0.427s] -- Up-to-date: /home/rishi/aurdinorobot_ws/install/aurdinorobot_description/share/aurdinorobot_description/meshes/right_finger.STL
+[0.427s] -- Up-to-date: /home/rishi/aurdinorobot_ws/install/aurdinorobot_description/share/aurdinorobot_description/meshes/basement.STL
+[0.428s] -- Up-to-date: /home/rishi/aurdinorobot_ws/install/aurdinorobot_description/share/aurdinorobot_description/meshes/claw_support.STL
+[0.428s] -- Up-to-date: /home/rishi/aurdinorobot_ws/install/aurdinorobot_description/share/aurdinorobot_description/meshes/link.STL
+[0.428s] -- Up-to-date: /home/rishi/aurdinorobot_ws/install/aurdinorobot_description/share/aurdinorobot_description/meshes/triangular_link.STL
+[0.428s] -- Up-to-date: /home/rishi/aurdinorobot_ws/install/aurdinorobot_description/share/aurdinorobot_description/urdf
+[0.428s] -- Up-to-date: /home/rishi/aurdinorobot_ws/install/aurdinorobot_description/share/aurdinorobot_description/urdf/arduinorobot.urdf.xacro
+[0.429s] -- Up-to-date: /home/rishi/aurdinorobot_ws/install/aurdinorobot_description/share/aurdinorobot_description/launch
+[0.429s] -- Installing: /home/rishi/aurdinorobot_ws/install/aurdinorobot_description/share/aurdinorobot_description/launch/display.launch.py
+[0.429s] -- Up-to-date: /home/rishi/aurdinorobot_ws/install/aurdinorobot_description/share/aurdinorobot_description/rviz
+[0.429s] -- Up-to-date: /home/rishi/aurdinorobot_ws/install/aurdinorobot_description/share/aurdinorobot_description/rviz/visualization_display.rviz
+[0.429s] -- Up-to-date: /home/rishi/aurdinorobot_ws/install/aurdinorobot_description/share/ament_index/resource_index/package_run_dependencies/aurdinorobot_description
+[0.429s] -- Up-to-date: /home/rishi/aurdinorobot_ws/install/aurdinorobot_description/share/ament_index/resource_index/parent_prefix_path/aurdinorobot_description
+[0.429s] -- Up-to-date: /home/rishi/aurdinorobot_ws/install/aurdinorobot_description/share/aurdinorobot_description/environment/ament_prefix_path.sh
+[0.430s] -- Up-to-date: /home/rishi/aurdinorobot_ws/install/aurdinorobot_description/share/aurdinorobot_description/environment/ament_prefix_path.dsv
+[0.430s] -- Up-to-date: /home/rishi/aurdinorobot_ws/install/aurdinorobot_description/share/aurdinorobot_description/environment/path.sh
+[0.430s] -- Up-to-date: /home/rishi/aurdinorobot_ws/install/aurdinorobot_description/share/aurdinorobot_description/environment/path.dsv
+[0.431s] -- Up-to-date: /home/rishi/aurdinorobot_ws/install/aurdinorobot_description/share/aurdinorobot_description/local_setup.bash
+[0.433s] -- Up-to-date: /home/rishi/aurdinorobot_ws/install/aurdinorobot_description/share/aurdinorobot_description/local_setup.sh
+[0.433s] -- Up-to-date: /home/rishi/aurdinorobot_ws/install/aurdinorobot_description/share/aurdinorobot_description/local_setup.zsh
+[0.433s] -- Up-to-date: /home/rishi/aurdinorobot_ws/install/aurdinorobot_description/share/aurdinorobot_description/local_setup.dsv
+[0.433s] -- Installing: /home/rishi/aurdinorobot_ws/install/aurdinorobot_description/share/aurdinorobot_description/package.dsv
+[0.433s] -- Up-to-date: /home/rishi/aurdinorobot_ws/install/aurdinorobot_description/share/ament_index/resource_index/packages/aurdinorobot_description
+[0.434s] -- Up-to-date: /home/rishi/aurdinorobot_ws/install/aurdinorobot_description/share/aurdinorobot_description/cmake/aurdinorobot_descriptionConfig.cmake
+[0.434s] -- Up-to-date: /home/rishi/aurdinorobot_ws/install/aurdinorobot_description/share/aurdinorobot_description/cmake/aurdinorobot_descriptionConfig-version.cmake
+[0.434s] -- Up-to-date: /home/rishi/aurdinorobot_ws/install/aurdinorobot_description/share/aurdinorobot_description/package.xml
+[0.434s] Invoked command in '/home/rishi/aurdinorobot_ws/build/aurdinorobot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rishi/aurdinorobot_ws/install/aurdinobot_py_examples:/home/rishi/Desktop/ROS2-Self-Driving-Car-AI-using-OpenCV-34dbd42379571ce15dfddcd7bb851ab772a2b23d/install/self_driving_car_pkg:/opt/ros/humble /usr/bin/cmake --install /home/rishi/aurdinorobot_ws/build/aurdinorobot_description

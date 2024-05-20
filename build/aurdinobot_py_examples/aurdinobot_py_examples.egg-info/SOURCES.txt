@@ -1,0 +1,17 @@
+package.xml
+setup.cfg
+setup.py
+../../build/aurdinobot_py_examples/aurdinobot_py_examples.egg-info/PKG-INFO
+../../build/aurdinobot_py_examples/aurdinobot_py_examples.egg-info/SOURCES.txt
+../../build/aurdinobot_py_examples/aurdinobot_py_examples.egg-info/dependency_links.txt
+../../build/aurdinobot_py_examples/aurdinobot_py_examples.egg-info/entry_points.txt
+../../build/aurdinobot_py_examples/aurdinobot_py_examples.egg-info/requires.txt
+../../build/aurdinobot_py_examples/aurdinobot_py_examples.egg-info/top_level.txt
+../../build/aurdinobot_py_examples/aurdinobot_py_examples.egg-info/zip-safe
+aurdinobot_py_examples/__init__.py
+aurdinobot_py_examples/simple_parameter.py
+aurdinobot_py_examples/simple_publisher.py
+resource/aurdinobot_py_examples
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py
