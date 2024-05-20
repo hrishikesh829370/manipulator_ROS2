@@ -22,7 +22,9 @@
 /home/rishi/aurdinorobot_ws/install/aurdinorobot_description/share/aurdinorobot_description/models/ground_plane/model.config
 /home/rishi/aurdinorobot_ws/install/aurdinorobot_description/share/aurdinorobot_description/models/ground_plane/model.sdf
 /home/rishi/aurdinorobot_ws/install/aurdinorobot_description/share/aurdinorobot_description/models/ground_plane/model-1_3.sdf
+/home/rishi/aurdinorobot_ws/install/aurdinorobot_description/share/aurdinorobot_description/urdf/arduinorobot_gazebo.xacro
 /home/rishi/aurdinorobot_ws/install/aurdinorobot_description/share/aurdinorobot_description/urdf/arduinorobot.urdf.xacro
+/home/rishi/aurdinorobot_ws/install/aurdinorobot_description/share/aurdinorobot_description/urdf/arduinorobot_ros2_control.xacro
 /home/rishi/aurdinorobot_ws/install/aurdinorobot_description/share/aurdinorobot_description/launch/display.launch.py
 /home/rishi/aurdinorobot_ws/install/aurdinorobot_description/share/aurdinorobot_description/launch/gazebo.launch.py
 /home/rishi/aurdinorobot_ws/install/aurdinorobot_description/share/aurdinorobot_description/rviz/visualization_display.rviz

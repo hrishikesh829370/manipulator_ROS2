@@ -1,0 +1,4 @@
+source;share/aurdinorobot_controller/local_setup.bash
+source;share/aurdinorobot_controller/local_setup.dsv
+source;share/aurdinorobot_controller/local_setup.sh
+source;share/aurdinorobot_controller/local_setup.zsh

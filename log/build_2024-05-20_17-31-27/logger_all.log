@@ -1,0 +1,318 @@
+[0.216s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.216s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x780a95e2c310>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x780a95febd90>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x780a95febd90>>)
+[0.308s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.308s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.309s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.309s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.309s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.309s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.309s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/rishi/aurdinorobot_ws'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/aurdinobot_cpp_examples) by extensions ['ignore', 'ignore_ament_install']
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/aurdinobot_cpp_examples) by extension 'ignore'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/aurdinobot_cpp_examples) by extension 'ignore_ament_install'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/aurdinobot_cpp_examples) by extensions ['colcon_pkg']
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/aurdinobot_cpp_examples) by extension 'colcon_pkg'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/aurdinobot_cpp_examples) by extensions ['colcon_meta']
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/aurdinobot_cpp_examples) by extension 'colcon_meta'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/aurdinobot_cpp_examples) by extensions ['ros']
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/aurdinobot_cpp_examples) by extension 'ros'
+[0.338s] DEBUG:colcon.colcon_core.package_identification:Package 'src/aurdinobot_cpp_examples' with type 'ros.ament_cmake' and name 'aurdinobot_cpp_examples'
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/aurdinobot_py_examples) by extensions ['ignore', 'ignore_ament_install']
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/aurdinobot_py_examples) by extension 'ignore'
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/aurdinobot_py_examples) by extension 'ignore_ament_install'
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/aurdinobot_py_examples) by extensions ['colcon_pkg']
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/aurdinobot_py_examples) by extension 'colcon_pkg'
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/aurdinobot_py_examples) by extensions ['colcon_meta']
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/aurdinobot_py_examples) by extension 'colcon_meta'
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/aurdinobot_py_examples) by extensions ['ros']
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/aurdinobot_py_examples) by extension 'ros'
+[0.340s] DEBUG:colcon.colcon_core.package_identification:Package 'src/aurdinobot_py_examples' with type 'ros.ament_python' and name 'aurdinobot_py_examples'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/aurdinorobot_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/aurdinorobot_controller) by extension 'ignore'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/aurdinorobot_controller) by extension 'ignore_ament_install'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/aurdinorobot_controller) by extensions ['colcon_pkg']
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/aurdinorobot_controller) by extension 'colcon_pkg'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(src/aurdinorobot_controller) by extensions ['colcon_meta']
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(src/aurdinorobot_controller) by extension 'colcon_meta'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(src/aurdinorobot_controller) by extensions ['ros']
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(src/aurdinorobot_controller) by extension 'ros'
+[0.341s] DEBUG:colcon.colcon_core.package_identification:Package 'src/aurdinorobot_controller' with type 'ros.ament_cmake' and name 'aurdinorobot_controller'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(src/aurdinorobot_description) by extensions ['ignore', 'ignore_ament_install']
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(src/aurdinorobot_description) by extension 'ignore'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src/aurdinorobot_description) by extension 'ignore_ament_install'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src/aurdinorobot_description) by extensions ['colcon_pkg']
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src/aurdinorobot_description) by extension 'colcon_pkg'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src/aurdinorobot_description) by extensions ['colcon_meta']
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src/aurdinorobot_description) by extension 'colcon_meta'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src/aurdinorobot_description) by extensions ['ros']
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src/aurdinorobot_description) by extension 'ros'
+[0.343s] DEBUG:colcon.colcon_core.package_identification:Package 'src/aurdinorobot_description' with type 'ros.ament_cmake' and name 'aurdinorobot_description'
+[0.343s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.343s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.343s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.343s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.343s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.385s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.385s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.390s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/rishi/aurdinorobot_ws/install
+[0.392s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/rishi/Desktop/ROS2-Self-Driving-Car-AI-using-OpenCV-34dbd42379571ce15dfddcd7bb851ab772a2b23d/install
+[0.394s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 282 installed packages in /opt/ros/humble
+[0.396s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.488s] Level 5:colcon.colcon_core.verb:set package 'aurdinobot_cpp_examples' build argument 'cmake_args' from command line to 'None'
+[0.488s] Level 5:colcon.colcon_core.verb:set package 'aurdinobot_cpp_examples' build argument 'cmake_target' from command line to 'None'
+[0.488s] Level 5:colcon.colcon_core.verb:set package 'aurdinobot_cpp_examples' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.488s] Level 5:colcon.colcon_core.verb:set package 'aurdinobot_cpp_examples' build argument 'cmake_clean_cache' from command line to 'False'
+[0.489s] Level 5:colcon.colcon_core.verb:set package 'aurdinobot_cpp_examples' build argument 'cmake_clean_first' from command line to 'False'
+[0.489s] Level 5:colcon.colcon_core.verb:set package 'aurdinobot_cpp_examples' build argument 'cmake_force_configure' from command line to 'False'
+[0.489s] Level 5:colcon.colcon_core.verb:set package 'aurdinobot_cpp_examples' build argument 'ament_cmake_args' from command line to 'None'
+[0.489s] Level 5:colcon.colcon_core.verb:set package 'aurdinobot_cpp_examples' build argument 'catkin_cmake_args' from command line to 'None'
+[0.489s] Level 5:colcon.colcon_core.verb:set package 'aurdinobot_cpp_examples' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.489s] DEBUG:colcon.colcon_core.verb:Building package 'aurdinobot_cpp_examples' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rishi/aurdinorobot_ws/build/aurdinobot_cpp_examples', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rishi/aurdinorobot_ws/install/aurdinobot_cpp_examples', 'merge_install': False, 'path': '/home/rishi/aurdinorobot_ws/src/aurdinobot_cpp_examples', 'symlink_install': False, 'test_result_base': None}
+[0.489s] Level 5:colcon.colcon_core.verb:set package 'aurdinobot_py_examples' build argument 'cmake_args' from command line to 'None'
+[0.489s] Level 5:colcon.colcon_core.verb:set package 'aurdinobot_py_examples' build argument 'cmake_target' from command line to 'None'
+[0.489s] Level 5:colcon.colcon_core.verb:set package 'aurdinobot_py_examples' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.489s] Level 5:colcon.colcon_core.verb:set package 'aurdinobot_py_examples' build argument 'cmake_clean_cache' from command line to 'False'
+[0.489s] Level 5:colcon.colcon_core.verb:set package 'aurdinobot_py_examples' build argument 'cmake_clean_first' from command line to 'False'
+[0.489s] Level 5:colcon.colcon_core.verb:set package 'aurdinobot_py_examples' build argument 'cmake_force_configure' from command line to 'False'
+[0.489s] Level 5:colcon.colcon_core.verb:set package 'aurdinobot_py_examples' build argument 'ament_cmake_args' from command line to 'None'
+[0.489s] Level 5:colcon.colcon_core.verb:set package 'aurdinobot_py_examples' build argument 'catkin_cmake_args' from command line to 'None'
+[0.489s] Level 5:colcon.colcon_core.verb:set package 'aurdinobot_py_examples' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.489s] DEBUG:colcon.colcon_core.verb:Building package 'aurdinobot_py_examples' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rishi/aurdinorobot_ws/build/aurdinobot_py_examples', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rishi/aurdinorobot_ws/install/aurdinobot_py_examples', 'merge_install': False, 'path': '/home/rishi/aurdinorobot_ws/src/aurdinobot_py_examples', 'symlink_install': False, 'test_result_base': None}
+[0.490s] Level 5:colcon.colcon_core.verb:set package 'aurdinorobot_controller' build argument 'cmake_args' from command line to 'None'
+[0.490s] Level 5:colcon.colcon_core.verb:set package 'aurdinorobot_controller' build argument 'cmake_target' from command line to 'None'
+[0.490s] Level 5:colcon.colcon_core.verb:set package 'aurdinorobot_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.490s] Level 5:colcon.colcon_core.verb:set package 'aurdinorobot_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[0.490s] Level 5:colcon.colcon_core.verb:set package 'aurdinorobot_controller' build argument 'cmake_clean_first' from command line to 'False'
+[0.490s] Level 5:colcon.colcon_core.verb:set package 'aurdinorobot_controller' build argument 'cmake_force_configure' from command line to 'False'
+[0.490s] Level 5:colcon.colcon_core.verb:set package 'aurdinorobot_controller' build argument 'ament_cmake_args' from command line to 'None'
+[0.490s] Level 5:colcon.colcon_core.verb:set package 'aurdinorobot_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[0.490s] Level 5:colcon.colcon_core.verb:set package 'aurdinorobot_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.490s] DEBUG:colcon.colcon_core.verb:Building package 'aurdinorobot_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rishi/aurdinorobot_ws/build/aurdinorobot_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rishi/aurdinorobot_ws/install/aurdinorobot_controller', 'merge_install': False, 'path': '/home/rishi/aurdinorobot_ws/src/aurdinorobot_controller', 'symlink_install': False, 'test_result_base': None}
+[0.490s] Level 5:colcon.colcon_core.verb:set package 'aurdinorobot_description' build argument 'cmake_args' from command line to 'None'
+[0.491s] Level 5:colcon.colcon_core.verb:set package 'aurdinorobot_description' build argument 'cmake_target' from command line to 'None'
+[0.491s] Level 5:colcon.colcon_core.verb:set package 'aurdinorobot_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.491s] Level 5:colcon.colcon_core.verb:set package 'aurdinorobot_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.491s] Level 5:colcon.colcon_core.verb:set package 'aurdinorobot_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.491s] Level 5:colcon.colcon_core.verb:set package 'aurdinorobot_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.491s] Level 5:colcon.colcon_core.verb:set package 'aurdinorobot_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.491s] Level 5:colcon.colcon_core.verb:set package 'aurdinorobot_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.491s] Level 5:colcon.colcon_core.verb:set package 'aurdinorobot_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.491s] DEBUG:colcon.colcon_core.verb:Building package 'aurdinorobot_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rishi/aurdinorobot_ws/build/aurdinorobot_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rishi/aurdinorobot_ws/install/aurdinorobot_description', 'merge_install': False, 'path': '/home/rishi/aurdinorobot_ws/src/aurdinorobot_description', 'symlink_install': False, 'test_result_base': None}
+[0.491s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.492s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.493s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/rishi/aurdinorobot_ws/src/aurdinobot_cpp_examples' with build type 'ament_cmake'
+[0.493s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/rishi/aurdinorobot_ws/src/aurdinobot_cpp_examples'
+[0.498s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.499s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.499s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.505s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/rishi/aurdinorobot_ws/src/aurdinobot_py_examples' with build type 'ament_python'
+[0.505s] Level 1:colcon.colcon_core.shell:create_environment_hook('aurdinobot_py_examples', 'ament_prefix_path')
+[0.505s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rishi/aurdinorobot_ws/install/aurdinobot_py_examples/share/aurdinobot_py_examples/hook/ament_prefix_path.ps1'
+[0.507s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rishi/aurdinorobot_ws/install/aurdinobot_py_examples/share/aurdinobot_py_examples/hook/ament_prefix_path.dsv'
+[0.507s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rishi/aurdinorobot_ws/install/aurdinobot_py_examples/share/aurdinobot_py_examples/hook/ament_prefix_path.sh'
+[0.508s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.509s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.514s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/rishi/aurdinorobot_ws/src/aurdinorobot_controller' with build type 'ament_cmake'
+[0.514s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/rishi/aurdinorobot_ws/src/aurdinorobot_controller'
+[0.514s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.514s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.520s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/rishi/aurdinorobot_ws/src/aurdinorobot_description' with build type 'ament_cmake'
+[0.521s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/rishi/aurdinorobot_ws/src/aurdinorobot_description'
+[0.521s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.522s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.536s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rishi/aurdinorobot_ws/build/aurdinobot_cpp_examples': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rishi/aurdinorobot_ws/install/aurdinobot_py_examples:/home/rishi/Desktop/ROS2-Self-Driving-Car-AI-using-OpenCV-34dbd42379571ce15dfddcd7bb851ab772a2b23d/install/self_driving_car_pkg:/opt/ros/humble /usr/bin/cmake --build /home/rishi/aurdinorobot_ws/build/aurdinobot_cpp_examples -- -j8 -l8
+[0.866s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/rishi/aurdinorobot_ws/src/aurdinobot_py_examples'
+[0.867s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.867s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.879s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rishi/aurdinorobot_ws/build/aurdinorobot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rishi/aurdinorobot_ws/install/aurdinobot_py_examples:/home/rishi/Desktop/ROS2-Self-Driving-Car-AI-using-OpenCV-34dbd42379571ce15dfddcd7bb851ab772a2b23d/install/self_driving_car_pkg:/opt/ros/humble /usr/bin/cmake /home/rishi/aurdinorobot_ws/src/aurdinorobot_controller -DCMAKE_INSTALL_PREFIX=/home/rishi/aurdinorobot_ws/install/aurdinorobot_controller
+[0.885s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rishi/aurdinorobot_ws/build/aurdinorobot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rishi/aurdinorobot_ws/install/aurdinobot_py_examples:/home/rishi/Desktop/ROS2-Self-Driving-Car-AI-using-OpenCV-34dbd42379571ce15dfddcd7bb851ab772a2b23d/install/self_driving_car_pkg:/opt/ros/humble /usr/bin/cmake --build /home/rishi/aurdinorobot_ws/build/aurdinorobot_description -- -j8 -l8
+[0.889s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rishi/aurdinorobot_ws/build/aurdinobot_cpp_examples' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rishi/aurdinorobot_ws/install/aurdinobot_py_examples:/home/rishi/Desktop/ROS2-Self-Driving-Car-AI-using-OpenCV-34dbd42379571ce15dfddcd7bb851ab772a2b23d/install/self_driving_car_pkg:/opt/ros/humble /usr/bin/cmake --build /home/rishi/aurdinorobot_ws/build/aurdinobot_cpp_examples -- -j8 -l8
+[0.947s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rishi/aurdinorobot_ws/build/aurdinobot_cpp_examples': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rishi/aurdinorobot_ws/install/aurdinobot_py_examples:/home/rishi/Desktop/ROS2-Self-Driving-Car-AI-using-OpenCV-34dbd42379571ce15dfddcd7bb851ab772a2b23d/install/self_driving_car_pkg:/opt/ros/humble /usr/bin/cmake --install /home/rishi/aurdinorobot_ws/build/aurdinobot_cpp_examples
+[0.951s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rishi/aurdinorobot_ws/build/aurdinorobot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rishi/aurdinorobot_ws/install/aurdinobot_py_examples:/home/rishi/Desktop/ROS2-Self-Driving-Car-AI-using-OpenCV-34dbd42379571ce15dfddcd7bb851ab772a2b23d/install/self_driving_car_pkg:/opt/ros/humble /usr/bin/cmake --build /home/rishi/aurdinorobot_ws/build/aurdinorobot_description -- -j8 -l8
+[0.966s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(aurdinobot_cpp_examples)
+[0.967s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rishi/aurdinorobot_ws/build/aurdinobot_cpp_examples' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rishi/aurdinorobot_ws/install/aurdinobot_py_examples:/home/rishi/Desktop/ROS2-Self-Driving-Car-AI-using-OpenCV-34dbd42379571ce15dfddcd7bb851ab772a2b23d/install/self_driving_car_pkg:/opt/ros/humble /usr/bin/cmake --install /home/rishi/aurdinorobot_ws/build/aurdinobot_cpp_examples
+[0.974s] Level 1:colcon.colcon_core.environment:checking '/home/rishi/aurdinorobot_ws/install/aurdinobot_cpp_examples' for CMake module files
+[0.975s] Level 1:colcon.colcon_core.environment:checking '/home/rishi/aurdinorobot_ws/install/aurdinobot_cpp_examples' for CMake config files
+[0.976s] Level 1:colcon.colcon_core.shell:create_environment_hook('aurdinobot_cpp_examples', 'cmake_prefix_path')
+[0.976s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rishi/aurdinorobot_ws/install/aurdinobot_cpp_examples/share/aurdinobot_cpp_examples/hook/cmake_prefix_path.ps1'
+[0.977s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rishi/aurdinorobot_ws/install/aurdinobot_cpp_examples/share/aurdinobot_cpp_examples/hook/cmake_prefix_path.dsv'
+[0.978s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rishi/aurdinorobot_ws/install/aurdinobot_cpp_examples/share/aurdinobot_cpp_examples/hook/cmake_prefix_path.sh'
+[0.979s] Level 1:colcon.colcon_core.environment:checking '/home/rishi/aurdinorobot_ws/install/aurdinobot_cpp_examples/lib'
+[0.979s] Level 1:colcon.colcon_core.environment:checking '/home/rishi/aurdinorobot_ws/install/aurdinobot_cpp_examples/bin'
+[0.979s] Level 1:colcon.colcon_core.environment:checking '/home/rishi/aurdinorobot_ws/install/aurdinobot_cpp_examples/lib/pkgconfig/aurdinobot_cpp_examples.pc'
+[0.980s] Level 1:colcon.colcon_core.environment:checking '/home/rishi/aurdinorobot_ws/install/aurdinobot_cpp_examples/lib/python3.10/site-packages'
+[0.980s] Level 1:colcon.colcon_core.environment:checking '/home/rishi/aurdinorobot_ws/install/aurdinobot_cpp_examples/bin'
+[0.981s] INFO:colcon.colcon_core.shell:Creating package script '/home/rishi/aurdinorobot_ws/install/aurdinobot_cpp_examples/share/aurdinobot_cpp_examples/package.ps1'
+[0.982s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rishi/aurdinorobot_ws/install/aurdinobot_cpp_examples/share/aurdinobot_cpp_examples/package.dsv'
+[0.983s] INFO:colcon.colcon_core.shell:Creating package script '/home/rishi/aurdinorobot_ws/install/aurdinobot_cpp_examples/share/aurdinobot_cpp_examples/package.sh'
+[0.984s] INFO:colcon.colcon_core.shell:Creating package script '/home/rishi/aurdinorobot_ws/install/aurdinobot_cpp_examples/share/aurdinobot_cpp_examples/package.bash'
+[0.986s] INFO:colcon.colcon_core.shell:Creating package script '/home/rishi/aurdinorobot_ws/install/aurdinobot_cpp_examples/share/aurdinobot_cpp_examples/package.zsh'
+[0.987s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rishi/aurdinorobot_ws/install/aurdinobot_cpp_examples/share/colcon-core/packages/aurdinobot_cpp_examples)
+[0.991s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rishi/aurdinorobot_ws/build/aurdinorobot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rishi/aurdinorobot_ws/install/aurdinobot_py_examples:/home/rishi/Desktop/ROS2-Self-Driving-Car-AI-using-OpenCV-34dbd42379571ce15dfddcd7bb851ab772a2b23d/install/self_driving_car_pkg:/opt/ros/humble /usr/bin/cmake --install /home/rishi/aurdinorobot_ws/build/aurdinorobot_description
+[1.014s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(aurdinorobot_description)
+[1.014s] Level 1:colcon.colcon_core.environment:checking '/home/rishi/aurdinorobot_ws/install/aurdinorobot_description' for CMake module files
+[1.015s] Level 1:colcon.colcon_core.environment:checking '/home/rishi/aurdinorobot_ws/install/aurdinorobot_description' for CMake config files
+[1.017s] Level 1:colcon.colcon_core.shell:create_environment_hook('aurdinorobot_description', 'cmake_prefix_path')
+[1.017s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rishi/aurdinorobot_ws/install/aurdinorobot_description/share/aurdinorobot_description/hook/cmake_prefix_path.ps1'
+[1.018s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rishi/aurdinorobot_ws/install/aurdinorobot_description/share/aurdinorobot_description/hook/cmake_prefix_path.dsv'
+[1.020s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rishi/aurdinorobot_ws/install/aurdinorobot_description/share/aurdinorobot_description/hook/cmake_prefix_path.sh'
+[1.020s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rishi/aurdinorobot_ws/build/aurdinorobot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rishi/aurdinorobot_ws/install/aurdinobot_py_examples:/home/rishi/Desktop/ROS2-Self-Driving-Car-AI-using-OpenCV-34dbd42379571ce15dfddcd7bb851ab772a2b23d/install/self_driving_car_pkg:/opt/ros/humble /usr/bin/cmake --install /home/rishi/aurdinorobot_ws/build/aurdinorobot_description
+[1.023s] Level 1:colcon.colcon_core.environment:checking '/home/rishi/aurdinorobot_ws/install/aurdinorobot_description/bin'
+[1.023s] Level 1:colcon.colcon_core.environment:checking '/home/rishi/aurdinorobot_ws/install/aurdinorobot_description/lib/pkgconfig/aurdinorobot_description.pc'
+[1.024s] Level 1:colcon.colcon_core.environment:checking '/home/rishi/aurdinorobot_ws/install/aurdinorobot_description/lib/python3.10/site-packages'
+[1.024s] Level 1:colcon.colcon_core.environment:checking '/home/rishi/aurdinorobot_ws/install/aurdinorobot_description/bin'
+[1.025s] INFO:colcon.colcon_core.shell:Creating package script '/home/rishi/aurdinorobot_ws/install/aurdinorobot_description/share/aurdinorobot_description/package.ps1'
+[1.026s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rishi/aurdinorobot_ws/install/aurdinorobot_description/share/aurdinorobot_description/package.dsv'
+[1.026s] INFO:colcon.colcon_core.shell:Creating package script '/home/rishi/aurdinorobot_ws/install/aurdinorobot_description/share/aurdinorobot_description/package.sh'
+[1.027s] INFO:colcon.colcon_core.shell:Creating package script '/home/rishi/aurdinorobot_ws/install/aurdinorobot_description/share/aurdinorobot_description/package.bash'
+[1.028s] INFO:colcon.colcon_core.shell:Creating package script '/home/rishi/aurdinorobot_ws/install/aurdinorobot_description/share/aurdinorobot_description/package.zsh'
+[1.029s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rishi/aurdinorobot_ws/install/aurdinorobot_description/share/colcon-core/packages/aurdinorobot_description)
+[1.041s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(aurdinobot_cpp_examples)
+[1.041s] Level 1:colcon.colcon_core.environment:checking '/home/rishi/aurdinorobot_ws/install/aurdinobot_cpp_examples' for CMake module files
+[1.042s] Level 1:colcon.colcon_core.environment:checking '/home/rishi/aurdinorobot_ws/install/aurdinobot_cpp_examples' for CMake config files
+[1.042s] Level 1:colcon.colcon_core.shell:create_environment_hook('aurdinobot_cpp_examples', 'cmake_prefix_path')
+[1.043s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rishi/aurdinorobot_ws/install/aurdinobot_cpp_examples/share/aurdinobot_cpp_examples/hook/cmake_prefix_path.ps1'
+[1.043s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rishi/aurdinorobot_ws/install/aurdinobot_cpp_examples/share/aurdinobot_cpp_examples/hook/cmake_prefix_path.dsv'
+[1.044s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rishi/aurdinorobot_ws/install/aurdinobot_cpp_examples/share/aurdinobot_cpp_examples/hook/cmake_prefix_path.sh'
+[1.045s] Level 1:colcon.colcon_core.environment:checking '/home/rishi/aurdinorobot_ws/install/aurdinobot_cpp_examples/lib'
+[1.046s] Level 1:colcon.colcon_core.environment:checking '/home/rishi/aurdinorobot_ws/install/aurdinobot_cpp_examples/bin'
+[1.046s] Level 1:colcon.colcon_core.environment:checking '/home/rishi/aurdinorobot_ws/install/aurdinobot_cpp_examples/lib/pkgconfig/aurdinobot_cpp_examples.pc'
+[1.046s] Level 1:colcon.colcon_core.environment:checking '/home/rishi/aurdinorobot_ws/install/aurdinobot_cpp_examples/lib/python3.10/site-packages'
+[1.047s] Level 1:colcon.colcon_core.environment:checking '/home/rishi/aurdinorobot_ws/install/aurdinobot_cpp_examples/bin'
+[1.047s] INFO:colcon.colcon_core.shell:Creating package script '/home/rishi/aurdinorobot_ws/install/aurdinobot_cpp_examples/share/aurdinobot_cpp_examples/package.ps1'
+[1.049s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rishi/aurdinorobot_ws/install/aurdinobot_cpp_examples/share/aurdinobot_cpp_examples/package.dsv'
+[1.050s] INFO:colcon.colcon_core.shell:Creating package script '/home/rishi/aurdinorobot_ws/install/aurdinobot_cpp_examples/share/aurdinobot_cpp_examples/package.sh'
+[1.051s] INFO:colcon.colcon_core.shell:Creating package script '/home/rishi/aurdinorobot_ws/install/aurdinobot_cpp_examples/share/aurdinobot_cpp_examples/package.bash'
+[1.052s] INFO:colcon.colcon_core.shell:Creating package script '/home/rishi/aurdinorobot_ws/install/aurdinobot_cpp_examples/share/aurdinobot_cpp_examples/package.zsh'
+[1.053s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rishi/aurdinorobot_ws/install/aurdinobot_cpp_examples/share/colcon-core/packages/aurdinobot_cpp_examples)
+[1.072s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(aurdinorobot_description)
+[1.072s] Level 1:colcon.colcon_core.environment:checking '/home/rishi/aurdinorobot_ws/install/aurdinorobot_description' for CMake module files
+[1.073s] Level 1:colcon.colcon_core.environment:checking '/home/rishi/aurdinorobot_ws/install/aurdinorobot_description' for CMake config files
+[1.074s] Level 1:colcon.colcon_core.shell:create_environment_hook('aurdinorobot_description', 'cmake_prefix_path')
+[1.074s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rishi/aurdinorobot_ws/install/aurdinorobot_description/share/aurdinorobot_description/hook/cmake_prefix_path.ps1'
+[1.075s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rishi/aurdinorobot_ws/install/aurdinorobot_description/share/aurdinorobot_description/hook/cmake_prefix_path.dsv'
+[1.076s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rishi/aurdinorobot_ws/install/aurdinorobot_description/share/aurdinorobot_description/hook/cmake_prefix_path.sh'
+[1.077s] Level 1:colcon.colcon_core.environment:checking '/home/rishi/aurdinorobot_ws/install/aurdinorobot_description/bin'
+[1.077s] Level 1:colcon.colcon_core.environment:checking '/home/rishi/aurdinorobot_ws/install/aurdinorobot_description/lib/pkgconfig/aurdinorobot_description.pc'
+[1.077s] Level 1:colcon.colcon_core.environment:checking '/home/rishi/aurdinorobot_ws/install/aurdinorobot_description/lib/python3.10/site-packages'
+[1.077s] Level 1:colcon.colcon_core.environment:checking '/home/rishi/aurdinorobot_ws/install/aurdinorobot_description/bin'
+[1.078s] INFO:colcon.colcon_core.shell:Creating package script '/home/rishi/aurdinorobot_ws/install/aurdinorobot_description/share/aurdinorobot_description/package.ps1'
+[1.079s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rishi/aurdinorobot_ws/install/aurdinorobot_description/share/aurdinorobot_description/package.dsv'
+[1.080s] INFO:colcon.colcon_core.shell:Creating package script '/home/rishi/aurdinorobot_ws/install/aurdinorobot_description/share/aurdinorobot_description/package.sh'
+[1.081s] INFO:colcon.colcon_core.shell:Creating package script '/home/rishi/aurdinorobot_ws/install/aurdinorobot_description/share/aurdinorobot_description/package.bash'
+[1.082s] INFO:colcon.colcon_core.shell:Creating package script '/home/rishi/aurdinorobot_ws/install/aurdinorobot_description/share/aurdinorobot_description/package.zsh'
+[1.083s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rishi/aurdinorobot_ws/install/aurdinorobot_description/share/colcon-core/packages/aurdinorobot_description)
+[1.896s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rishi/aurdinorobot_ws/src/aurdinobot_py_examples': PYTHONPATH=/home/rishi/aurdinorobot_ws/build/aurdinobot_py_examples/prefix_override:/home/rishi/aurdinorobot_ws/install/aurdinobot_py_examples/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/aurdinobot_py_examples build --build-base /home/rishi/aurdinorobot_ws/build/aurdinobot_py_examples/build install --record /home/rishi/aurdinorobot_ws/build/aurdinobot_py_examples/install.log --single-version-externally-managed install_data
+[2.757s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rishi/aurdinorobot_ws/build/aurdinorobot_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rishi/aurdinorobot_ws/install/aurdinobot_py_examples:/home/rishi/Desktop/ROS2-Self-Driving-Car-AI-using-OpenCV-34dbd42379571ce15dfddcd7bb851ab772a2b23d/install/self_driving_car_pkg:/opt/ros/humble /usr/bin/cmake /home/rishi/aurdinorobot_ws/src/aurdinorobot_controller -DCMAKE_INSTALL_PREFIX=/home/rishi/aurdinorobot_ws/install/aurdinorobot_controller
+[2.758s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rishi/aurdinorobot_ws/build/aurdinorobot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rishi/aurdinorobot_ws/install/aurdinobot_py_examples:/home/rishi/Desktop/ROS2-Self-Driving-Car-AI-using-OpenCV-34dbd42379571ce15dfddcd7bb851ab772a2b23d/install/self_driving_car_pkg:/opt/ros/humble /usr/bin/cmake --build /home/rishi/aurdinorobot_ws/build/aurdinorobot_controller -- -j8 -l8
+[2.871s] Level 1:colcon.colcon_core.environment:checking '/home/rishi/aurdinorobot_ws/install/aurdinobot_py_examples' for CMake module files
+[2.872s] Level 1:colcon.colcon_core.environment:checking '/home/rishi/aurdinorobot_ws/install/aurdinobot_py_examples' for CMake config files
+[2.873s] Level 1:colcon.colcon_core.environment:checking '/home/rishi/aurdinorobot_ws/install/aurdinobot_py_examples/lib'
+[2.873s] Level 1:colcon.colcon_core.environment:checking '/home/rishi/aurdinorobot_ws/install/aurdinobot_py_examples/bin'
+[2.873s] Level 1:colcon.colcon_core.environment:checking '/home/rishi/aurdinorobot_ws/install/aurdinobot_py_examples/lib/pkgconfig/aurdinobot_py_examples.pc'
+[2.874s] Level 1:colcon.colcon_core.environment:checking '/home/rishi/aurdinorobot_ws/install/aurdinobot_py_examples/lib/python3.10/site-packages'
+[2.874s] Level 1:colcon.colcon_core.shell:create_environment_hook('aurdinobot_py_examples', 'pythonpath')
+[2.874s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rishi/aurdinorobot_ws/install/aurdinobot_py_examples/share/aurdinobot_py_examples/hook/pythonpath.ps1'
+[2.876s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rishi/aurdinorobot_ws/src/aurdinobot_py_examples' returned '0': PYTHONPATH=/home/rishi/aurdinorobot_ws/build/aurdinobot_py_examples/prefix_override:/home/rishi/aurdinorobot_ws/install/aurdinobot_py_examples/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/aurdinobot_py_examples build --build-base /home/rishi/aurdinorobot_ws/build/aurdinobot_py_examples/build install --record /home/rishi/aurdinorobot_ws/build/aurdinobot_py_examples/install.log --single-version-externally-managed install_data
+[2.877s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rishi/aurdinorobot_ws/install/aurdinobot_py_examples/share/aurdinobot_py_examples/hook/pythonpath.dsv'
+[2.878s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rishi/aurdinorobot_ws/install/aurdinobot_py_examples/share/aurdinobot_py_examples/hook/pythonpath.sh'
+[2.879s] Level 1:colcon.colcon_core.environment:checking '/home/rishi/aurdinorobot_ws/install/aurdinobot_py_examples/bin'
+[2.879s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(aurdinobot_py_examples)
+[2.880s] INFO:colcon.colcon_core.shell:Creating package script '/home/rishi/aurdinorobot_ws/install/aurdinobot_py_examples/share/aurdinobot_py_examples/package.ps1'
+[2.881s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rishi/aurdinorobot_ws/install/aurdinobot_py_examples/share/aurdinobot_py_examples/package.dsv'
+[2.884s] INFO:colcon.colcon_core.shell:Creating package script '/home/rishi/aurdinorobot_ws/install/aurdinobot_py_examples/share/aurdinobot_py_examples/package.sh'
+[2.885s] INFO:colcon.colcon_core.shell:Creating package script '/home/rishi/aurdinorobot_ws/install/aurdinobot_py_examples/share/aurdinobot_py_examples/package.bash'
+[2.886s] INFO:colcon.colcon_core.shell:Creating package script '/home/rishi/aurdinorobot_ws/install/aurdinobot_py_examples/share/aurdinobot_py_examples/package.zsh'
+[2.887s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rishi/aurdinorobot_ws/install/aurdinobot_py_examples/share/colcon-core/packages/aurdinobot_py_examples)
+[2.890s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rishi/aurdinorobot_ws/build/aurdinorobot_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rishi/aurdinorobot_ws/install/aurdinobot_py_examples:/home/rishi/Desktop/ROS2-Self-Driving-Car-AI-using-OpenCV-34dbd42379571ce15dfddcd7bb851ab772a2b23d/install/self_driving_car_pkg:/opt/ros/humble /usr/bin/cmake --build /home/rishi/aurdinorobot_ws/build/aurdinorobot_controller -- -j8 -l8
+[2.935s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rishi/aurdinorobot_ws/build/aurdinorobot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rishi/aurdinorobot_ws/install/aurdinobot_py_examples:/home/rishi/Desktop/ROS2-Self-Driving-Car-AI-using-OpenCV-34dbd42379571ce15dfddcd7bb851ab772a2b23d/install/self_driving_car_pkg:/opt/ros/humble /usr/bin/cmake --install /home/rishi/aurdinorobot_ws/build/aurdinorobot_controller
+[2.954s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(aurdinorobot_controller)
+[2.954s] Level 1:colcon.colcon_core.environment:checking '/home/rishi/aurdinorobot_ws/install/aurdinorobot_controller' for CMake module files
+[2.955s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rishi/aurdinorobot_ws/build/aurdinorobot_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rishi/aurdinorobot_ws/install/aurdinobot_py_examples:/home/rishi/Desktop/ROS2-Self-Driving-Car-AI-using-OpenCV-34dbd42379571ce15dfddcd7bb851ab772a2b23d/install/self_driving_car_pkg:/opt/ros/humble /usr/bin/cmake --install /home/rishi/aurdinorobot_ws/build/aurdinorobot_controller
+[2.956s] Level 1:colcon.colcon_core.environment:checking '/home/rishi/aurdinorobot_ws/install/aurdinorobot_controller' for CMake config files
+[2.956s] Level 1:colcon.colcon_core.shell:create_environment_hook('aurdinorobot_controller', 'cmake_prefix_path')
+[2.956s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rishi/aurdinorobot_ws/install/aurdinorobot_controller/share/aurdinorobot_controller/hook/cmake_prefix_path.ps1'
+[2.957s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rishi/aurdinorobot_ws/install/aurdinorobot_controller/share/aurdinorobot_controller/hook/cmake_prefix_path.dsv'
+[2.958s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rishi/aurdinorobot_ws/install/aurdinorobot_controller/share/aurdinorobot_controller/hook/cmake_prefix_path.sh'
+[2.959s] Level 1:colcon.colcon_core.environment:checking '/home/rishi/aurdinorobot_ws/install/aurdinorobot_controller/bin'
+[2.959s] Level 1:colcon.colcon_core.environment:checking '/home/rishi/aurdinorobot_ws/install/aurdinorobot_controller/lib/pkgconfig/aurdinorobot_controller.pc'
+[2.960s] Level 1:colcon.colcon_core.environment:checking '/home/rishi/aurdinorobot_ws/install/aurdinorobot_controller/lib/python3.10/site-packages'
+[2.960s] Level 1:colcon.colcon_core.environment:checking '/home/rishi/aurdinorobot_ws/install/aurdinorobot_controller/bin'
+[2.960s] INFO:colcon.colcon_core.shell:Creating package script '/home/rishi/aurdinorobot_ws/install/aurdinorobot_controller/share/aurdinorobot_controller/package.ps1'
+[2.962s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rishi/aurdinorobot_ws/install/aurdinorobot_controller/share/aurdinorobot_controller/package.dsv'
+[2.963s] INFO:colcon.colcon_core.shell:Creating package script '/home/rishi/aurdinorobot_ws/install/aurdinorobot_controller/share/aurdinorobot_controller/package.sh'
+[2.963s] INFO:colcon.colcon_core.shell:Creating package script '/home/rishi/aurdinorobot_ws/install/aurdinorobot_controller/share/aurdinorobot_controller/package.bash'
+[2.964s] INFO:colcon.colcon_core.shell:Creating package script '/home/rishi/aurdinorobot_ws/install/aurdinorobot_controller/share/aurdinorobot_controller/package.zsh'
+[2.964s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rishi/aurdinorobot_ws/install/aurdinorobot_controller/share/colcon-core/packages/aurdinorobot_controller)
+[2.999s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(aurdinorobot_controller)
+[3.000s] Level 1:colcon.colcon_core.environment:checking '/home/rishi/aurdinorobot_ws/install/aurdinorobot_controller' for CMake module files
+[3.000s] Level 1:colcon.colcon_core.environment:checking '/home/rishi/aurdinorobot_ws/install/aurdinorobot_controller' for CMake config files
+[3.001s] Level 1:colcon.colcon_core.shell:create_environment_hook('aurdinorobot_controller', 'cmake_prefix_path')
+[3.001s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rishi/aurdinorobot_ws/install/aurdinorobot_controller/share/aurdinorobot_controller/hook/cmake_prefix_path.ps1'
+[3.002s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rishi/aurdinorobot_ws/install/aurdinorobot_controller/share/aurdinorobot_controller/hook/cmake_prefix_path.dsv'
+[3.002s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rishi/aurdinorobot_ws/install/aurdinorobot_controller/share/aurdinorobot_controller/hook/cmake_prefix_path.sh'
+[3.003s] Level 1:colcon.colcon_core.environment:checking '/home/rishi/aurdinorobot_ws/install/aurdinorobot_controller/bin'
+[3.003s] Level 1:colcon.colcon_core.environment:checking '/home/rishi/aurdinorobot_ws/install/aurdinorobot_controller/lib/pkgconfig/aurdinorobot_controller.pc'
+[3.004s] Level 1:colcon.colcon_core.environment:checking '/home/rishi/aurdinorobot_ws/install/aurdinorobot_controller/lib/python3.10/site-packages'
+[3.004s] Level 1:colcon.colcon_core.environment:checking '/home/rishi/aurdinorobot_ws/install/aurdinorobot_controller/bin'
+[3.004s] INFO:colcon.colcon_core.shell:Creating package script '/home/rishi/aurdinorobot_ws/install/aurdinorobot_controller/share/aurdinorobot_controller/package.ps1'
+[3.005s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rishi/aurdinorobot_ws/install/aurdinorobot_controller/share/aurdinorobot_controller/package.dsv'
+[3.006s] INFO:colcon.colcon_core.shell:Creating package script '/home/rishi/aurdinorobot_ws/install/aurdinorobot_controller/share/aurdinorobot_controller/package.sh'
+[3.006s] INFO:colcon.colcon_core.shell:Creating package script '/home/rishi/aurdinorobot_ws/install/aurdinorobot_controller/share/aurdinorobot_controller/package.bash'
+[3.007s] INFO:colcon.colcon_core.shell:Creating package script '/home/rishi/aurdinorobot_ws/install/aurdinorobot_controller/share/aurdinorobot_controller/package.zsh'
+[3.008s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rishi/aurdinorobot_ws/install/aurdinorobot_controller/share/colcon-core/packages/aurdinorobot_controller)
+[3.009s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[3.010s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[3.010s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[3.011s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[3.025s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[3.025s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[3.025s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[3.046s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[3.046s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rishi/aurdinorobot_ws/install/local_setup.ps1'
+[3.049s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/rishi/aurdinorobot_ws/install/_local_setup_util_ps1.py'
+[3.051s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rishi/aurdinorobot_ws/install/setup.ps1'
+[3.053s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rishi/aurdinorobot_ws/install/local_setup.sh'
+[3.055s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/rishi/aurdinorobot_ws/install/_local_setup_util_sh.py'
+[3.056s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rishi/aurdinorobot_ws/install/setup.sh'
+[3.058s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rishi/aurdinorobot_ws/install/local_setup.bash'
+[3.059s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rishi/aurdinorobot_ws/install/setup.bash'
+[3.062s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rishi/aurdinorobot_ws/install/local_setup.zsh'
+[3.063s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rishi/aurdinorobot_ws/install/setup.zsh'

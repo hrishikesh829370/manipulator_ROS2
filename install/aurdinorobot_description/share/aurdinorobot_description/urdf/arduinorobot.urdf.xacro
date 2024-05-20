@@ -3,6 +3,8 @@
 
 <robot xmlns:xacro = "http://www.ros.org/wiki/xacro" name = "aurdinorobot">
     
+    <xacro:include filename="$(find aurdinorobot_description)/urdf/arduinorobot_gazebo.xacro"/>
+    <xacro:include filename="$(find aurdinorobot_description)/urdf/arduinorobot_ros2_control.xacro"/>
     <xacro:property name="PI" value="3.14159"/>
     <xacro:property name="effort" value="30.0"/>
     <xacro:property name="velocity" value="10.0"/>
@@ -10,14 +12,24 @@
     <xacro:macro name = "default_inertial" params = "mass">
         <inertial>
             <mass value ="${mass}"/>
-            <inertial ixx= "1.0" ixy = "0.0" ixz = "0.0"
-            iyy = "1.0" iyz = "0.0"
-            izz = "1.0"/>
-        </inertial>
+            <inertia ixx="1.0" ixy = "0.0" ixz = "0.0"
+                      iyy="1.0" iyz = "0.0"
+                      izz="1.0"/>
+            </inertial>
 
     </xacro:macro>
+    <xacro:macro name = "default_transmission" params = "number">
+        <transmission name = "transmission_${number}">
+            <plugin>transmission_interface/SimpleTransmission</plugin>
+            <actuator name = "motor_${number}" role = "actuator"/>
+            <joint name = "joint_${number}" role = "joint1">
+                <mechanical_reduction>1.0</mechanical_reduction>
 
+            </joint>
 
+        </transmission>
+    </xacro:macro>
+    
     <link name= "world"/>
     
     <link name = "base_link">
@@ -198,12 +210,19 @@
     </joint>
 
     <link name="rgb_camera">
+        <xacro:default_inertial mass = "0.001"/>
         <visual>
             <origin rpy="-1.57 0 -1.57" xyz="-0.1 0.125 0.15"/>
             <geometry>
                 <mesh filename="package://aurdinorobot_description/meshes/pi_camera.STL" scale="0.01 0.01 0.01"/>
             </geometry>
         </visual>
+        <collision>
+            <origin rpy="-1.57 0 -1.57" xyz="-0.1 0.125 0.15"/>
+            <geometry>
+                <mesh filename="package://aurdinorobot_description/meshes/pi_camera.STL" scale="0.01 0.01 0.01"/>
+            </geometry>
+        </collision>
     </link>
     <joint name ="rgb_camera_joint" type="fixed">
         <parent link="base_link"/>
@@ -211,5 +230,8 @@
         <origin xyz="0 0.45 0.2" rpy="0 -0.5 1.57"/>
     </joint>
 
-
+    <xacro:default_transmission number="1"/>
+    <xacro:default_transmission number="2"/>
+    <xacro:default_transmission number="3"/>
+    <xacro:default_transmission number="4"/>
 </robot>
